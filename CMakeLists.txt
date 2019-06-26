@@ -3,4 +3,4 @@ project(TopCommonWords)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(TopCommonWords main.cpp)
+add_executable(TopCommonWords main.cpp TopCommonWords.cpp TopCommonWords.h)
